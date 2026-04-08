@@ -1,0 +1,8 @@
+print(ord('A'))
+print(ord('a'))
+print(ord('Z'))
+print(ord('z'))
+print(ord('0'))
+print(ord(' '))
+print(ord("9"))
+print(ord(""))
