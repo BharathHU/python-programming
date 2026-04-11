@@ -1,0 +1,16 @@
+a=[20,30,40,50]
+print(len(a))
+b={"a","b","c","d,e","@"}
+print(len(b))
+a.append(10)
+a.append("abc")
+a.append(22.3)
+print(a)
+print(len(a))
+print(a[3])
+a[3]=11
+a.insert(1,11)
+print(a)
+print(len(a))
+a.append(b)
+print(a)
