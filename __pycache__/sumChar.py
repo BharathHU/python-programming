@@ -27,4 +27,4 @@ def sumCharcterDigits(s):
 s = input("enter the string")
 print("the original string is: ", s)
 res = sumCharcterDigits(s)
-print(" The summed str is: ", res)
+print(" The summed str is: ", res)-
