@@ -4,6 +4,6 @@ def strReverseRecurtion(s,nstr,i):
     nstr=s[i]+nstr
     return strReverseRecurtion(s,nstr,(i+1))
 s=input("Enter a String:")
-print("The original String:")
+print("The original String:",s)
 res=strReverseRecurtion(s,"",0)
 print("The reversed String By Using Recurstion is:",res)
