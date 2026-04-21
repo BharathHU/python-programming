@@ -9,6 +9,7 @@
 # [10],[10,14]
 # i=3
 # [14]
+# for a given array length =n, the total number of subarrays= (n*(n+1))/2
 def createIntArr():
     print("Enter the array elements:")
     l1=[]
@@ -24,8 +25,19 @@ def displaySubArr(arr):
         res=[]
         for j in range(i,len(arr)):
             res.append(arr[j])
-            print(res)     
+            print(res)  
+def createSubArrays(arr):
+    res=[]
+    #start
+    for i in range(0,len(arr)):
+        #end
+        for j in range(i,len(arr)):
+            sub=[]
+            for k in range(i,j+1):   
+                sub.append(arr[k])
+            res.append(sub)
+        return res
 arr=createIntArr()
 print("The original array:",arr)
 displaySubArr(arr)
-
+print("The subArrays:",createSubArrays(arr))
