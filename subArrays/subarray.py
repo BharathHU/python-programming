@@ -20,7 +20,6 @@ def createIntArr():
             l1.append(n)
         except Exception as e:
             return l1
-        
 def displaySubArr(arr):
     for i in range(0,len(arr)):
         res=[]
@@ -28,7 +27,7 @@ def displaySubArr(arr):
             res.append(arr[j])
             print(res)  
 def createSubArrays(arr):
-    res=[]
+    res=[]  
     #start
     for i in range(0,len(arr)):
         #end
